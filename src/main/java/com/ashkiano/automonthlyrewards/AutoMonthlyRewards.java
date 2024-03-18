@@ -14,6 +14,7 @@ public class AutoMonthlyRewards extends JavaPlugin implements Listener {
         saveDefaultConfig();
         getServer().getPluginManager().registerEvents(this, this);
         Metrics metrics = new Metrics(this,21258);
+        this.getLogger().info("Thank you for using the AutoMonthlyRewards plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     @EventHandler
